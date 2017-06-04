@@ -1,0 +1,29 @@
+img {
+    display: block;
+    margin: 50px auto;
+}
+
+/* Rotacja */
+img:nth-child(1) {
+    transform: rotateY(0deg);
+    transition: all .5s;
+}
+
+img:nth-child(1):hover {
+    transform: rotateY(180deg);
+}
+
+/* Przesunięcie */
+img:nth-child(2) {
+    transform: translate(200px, 100px);
+}
+
+/* Skalownie*/
+img:nth-child(3) {
+    transform: scale(1);
+    transition: all .5s;
+}
+
+img:nth-child(3):hover {
+    transform: scale(1.5);
+}
